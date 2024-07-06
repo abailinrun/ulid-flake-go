@@ -23,16 +23,8 @@ ulidflake.New().Int() // 14246757444195114
 
 ## Installation
 
-To install Ulid-Flake, you can install via a package manager (if available):
-
 ```sh
-go install github.com/abailinrun/ulid-flake-go@latest
-```
-
-or you can clone the repository:
-
-```sh
-git clone git@github.com:abailinrun/ulid-flake-go.git
+go get github.com/abailinrun/ulid-flake-go@latest
 ```
 
 ## Basic Usage
