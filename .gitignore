@@ -20,3 +20,8 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# cmd binaries
+cmd/ulidflake/ulidflake
+cmd/ulidflakescalable/ulidflake
+cmd/ulidflakescalable/ulidflakescalable
