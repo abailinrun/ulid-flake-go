@@ -6,6 +6,13 @@
 
 Ulid-Flake is a compact `64-bit` ULID (Universally Unique Lexicographically Sortable Identifier) variant inspired by ULID and Twitter's Snowflake. It features a 1-bit sign bit, a 43-bit timestamp, and a 20-bit randomness. Additionally, it offers a scalable version using the last 5 bits as a scalability identifier (e.g., machineID, podID, nodeID).
 
+herein is proposed Ulid-Flake:
+
+```go
+ulidflake.New() // 00CMXB6TAK4SA
+ulidflake.New().Int() // 14246757444195114
+```
+
 ## Features
 
 - **Compact and Efficient**: Uses only 64 bits, making it compatible with common integer types like `int64` and `bigint`.
