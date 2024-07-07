@@ -197,7 +197,7 @@ fmt.Printf("From Int: %s\n", ulidFlake.String())
 ### From Base32 String
 
 ```go
-ulidFlake, _ := ulidflake.FromStr("01AN4Z07BY79KA1307SR9X4MV3")
+ulidFlake, _ := ulidflake.FromStr("01AN4Z07BY79K")
 fmt.Printf("From String: %s\n", ulidFlake.String())
 ```
 
