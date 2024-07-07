@@ -190,7 +190,7 @@ func main() {
 ### From Integer
 
 ```go
-ulidFlake := ulidflake.FromInt(1234567890123456789)
+ulidFlake, _ := ulidflake.FromInt(1234567890123456789)
 fmt.Printf("From Int: %s\n", ulidFlake.String())
 ```
 
