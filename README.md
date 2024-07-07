@@ -74,7 +74,7 @@ func main() {
 }
 ```
 
-## Monotonicity Testing
+## Monotonicity Testing In the Same Millisecond
 
 Stand-alone version:
 
